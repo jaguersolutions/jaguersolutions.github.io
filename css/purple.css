@@ -63,9 +63,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #CFD8DC;
+  color: var(--text-muted, #B0BEC5);
   text-align: left;
-  background-color: #000000; }
+  background-color: var(--dark, #121212); }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 700;
   line-height: 1.5;
-  color: #ffffff; }
+  color: var(--white, #ffffff); }
 
 h1, .h1 {
   font-size: 3rem; }
@@ -3300,7 +3300,7 @@ input[type="button"].btn-block {
       flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #263238;
+  background-color: var(--dark-card, #1e1e1e);
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.3rem; }
@@ -7483,7 +7483,7 @@ body {
 .section-angle {
   position: relative;
   border-color: inherit;
-  background: #000000; }
+  background: var(--dark, #121212); }
   .section-angle:before, .section-angle:after {
     width: 0;
     height: 0;
@@ -7499,13 +7499,13 @@ body {
     bottom: 0;
     border-right-width: 100vw; }
   .section-angle.bottom-left:after {
-    border-right-color: inherit; }
+    border-right-color: var(--dark, #121212); }
   .section-angle.bottom-right:after {
-    border-bottom-color: inherit; }
+    border-bottom-color: var(--dark, #121212); }
   .section-angle.top-left:before {
-    border-top-color: inherit; }
+    border-top-color: var(--dark, #121212); }
   .section-angle.top-right:before {
-    border-left-color: inherit; }
+    border-left-color: var(--dark, #121212); }
   @media (min-width: 992px) {
     .section-angle.bottom-right:after, .section-angle.top-right:before {
       border-bottom-width: 2rem; }
@@ -7528,7 +7528,7 @@ body {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%); }
     .smart-scroll.scrolling.up {
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(18, 18, 18, 0.9);
       -webkit-transform: translateY(0);
               transform: translateY(0);
       transition: all .3s ease-out; }
